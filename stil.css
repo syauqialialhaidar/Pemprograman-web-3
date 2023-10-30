@@ -7,7 +7,7 @@
 .section{
     height: 100vh;
     width: 100%;
-    background-image: url(nyengir.JPG);
+    background-image: url(Desain\ tanpa\ judul.png);
     background-size: cover;
     background-position: center;
 }
@@ -105,7 +105,7 @@ h4{
 .tentang{
     width: 100%;
     padding: 100px 0px;
-    background-color: #191919;
+    background-color: #000;
 }
 .about img{
     height: auto;
@@ -141,4 +141,112 @@ h4{
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
+}
+button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.skill{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: red;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: rgb(148, 40, 121);
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.seminar{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.seminar p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.seminar .button_two{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.seminar .button_two:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
 }
