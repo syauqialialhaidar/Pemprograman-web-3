@@ -12,11 +12,18 @@
     background-position: center;
 }
 nav{
-    background-color: black;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     padding-left: 8%;
     padding-right: 8%;
 }
@@ -106,11 +113,11 @@ h4{
 .tentang{
     width: 100%;
     padding: 100px 0px;
-    background-color: #131212;
+    background-color: #111010;
 }
-.about img{
+.tentang img{
     height: auto;
-    width: 430px;
+    width: 400px;
 }
 .tentang_text{
     width: 550px;
@@ -220,23 +227,23 @@ h5{
     border: 2px solid red;
     cursor: pointer;
 }
-.seminar{
+.seminar .sem{
     width: 100%;
-    height: 290px;
+    padding: 100px 0px;
     background: #191919;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
-.seminar p{
+.seminar .sem p{
     color: white;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
     text-align: center;
 }
-.seminar .button_two{
+.seminar .sem .button_two{
     background-color: red;
     color: white;
     text-decoration: none;
@@ -246,7 +253,7 @@ h5{
     border-radius: 30px;
     transition: .4s;
 }
-.seminar .button_two:hover{
+.seminar .sem .button_two:hover{
     background-color: transparent;
     border: 2px solid red;
     cursor: pointer;
