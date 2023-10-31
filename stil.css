@@ -238,7 +238,7 @@ h5{
 }
 .seminar .sem p{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 25px;
     text-align: center;
@@ -299,7 +299,6 @@ footer p:nth-child(2){
 }
 .sosmed a:hover{
     transform: scale(1.3);
-    transition: .3s;
 }
 .copi{
     position: absolute;
