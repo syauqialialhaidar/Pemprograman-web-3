@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+nav a i{
+    z-index: 1;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 8%;
+}
+nav:hover{
+    cursor: pointer;
+}
+.rangkuman{
+    background-color: #000;
+}
+.pra h1, p{
+    color: white;
+    width: 100%;
+    padding: 5px 0px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 100%;
+    width: 100%;
+    padding: 20px 30px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 50px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
